@@ -12,11 +12,13 @@ h1{
 	font-size: 90px;
 	font-family: sans-serif;
 	color: white;
+	text-shadow: 0 4px 20px black;
 }
 header img{
 	border-radius: 174px;
 	width: 300px;
 	border: 30px solid #ffffff;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
@@ -39,8 +41,12 @@ ul{
 	margin: 0;
 }
 a{
-	color: red;
+	color: blue;
 	text-decoration: none;
+	background-color: white;
+}
+a.hover{
+	background-color: lightgrey;
 }
 footer{
 	margin-top: 20px;
